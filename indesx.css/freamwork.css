@@ -1,0 +1,151 @@
+
+:root {
+    --green-color-bc:#19b962;
+    --blue-color:#252541;
+    --gray-color:#8894a4;
+    --h4-color:#252541;
+    --main-transition: 0.3s;
+    --main-padding-top: 100px;
+    --main-padding-bottom: 100px;
+    
+}
+
+    .title-center h2 {
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+    .title-center p {
+        font-size: 16px;
+        color: var(--head-color);
+        margin: 20px 218px 85px;
+        text-align: center;
+    }
+    .d-flex { 
+        display: flex;
+    }
+    .d-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    .btn-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .around-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .center-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .center-flex-tow {
+        display: flex;
+        align-items: center;
+    }
+
+    @media (max-width:992px) {
+        .dm-tap-none {
+            display: none;
+        }
+    }
+    @media (max-width:767px) {
+        .m-txt-c {
+            text-align: center;
+        }
+    }
+        .flex-txt-c {
+            display: flex;
+            align-items: center;
+        }
+.txt-c {
+    text-align: center;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+@media (max-width:768px) {
+    .pt-none {
+        padding-top: 0;
+    }
+}
+
+.c-orange {
+color: #fd7e14;
+}
+.c-purpue {
+color: #6f42c1;
+}
+.c-teal {
+color: #20c997;
+}
+.c-cyan {
+color: #17a2b8;
+}
+.c-red {
+color: #dc3545;
+}
+.c-yolow {
+color: #ffc107;
+}
+
+.bc-orange {
+background-color: #fd7d1448;
+}
+.bc-purpue {
+background-color: #6e42c144;
+}
+.bc-teal {
+background-color: #20c9964b;
+}
+.bc-cyan {
+background-color: #17a3b843;
+}
+.bc-red {
+background-color: #dc35463a;
+}
+.bc-yolow {
+background-color: #ffc10746;
+}
+
+.bc-ic-orange {
+background-color: #fd7d14;
+}
+.bc-ic-purpue {
+background-color: #6e42c1;
+}
+.bc-ic-teal {
+background-color: #20c996;
+}
+.bc-ic-cyan {
+background-color: #17a3b8;
+}
+.bc-ic-red {
+background-color: #dc3546;
+}
+.bc-ic-yolow {
+background-color: #ffc107;
+}
+
+@media (max-width:767px) {
+    .flex-colum {
+        flex-direction: column;
+    }
+}
+@media (max-width:991px) {
+    .dm-none {
+        display: none;
+    }
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
